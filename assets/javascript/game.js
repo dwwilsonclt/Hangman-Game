@@ -141,11 +141,11 @@ function makeStatusHTML(statusType) {
 			}
 	}
 	
-	var imageName = "HMProgress" + userPicksWrong + '.jpg">';
+	var imageName = "hmprogress" + userPicksWrong + '.jpg">';
 
 	if (statusType === "playing") {
 
-		var html = '<img src="assets/images/' + imageName +	
+		var html = '<img src="assets/images/' + imageName +
 		'<div class="panel panel-default">' +
 		  '<div class="panel-heading">' +
 		  '<h3 class="panel-title">You have guessed the following phrase so far</h3>' +
@@ -171,7 +171,7 @@ function makeStatusHTML(statusType) {
 //===============
 	if (statusType === "winner"){
 		
-		var html = '<img src="assets/images/HMProgressWIN.jpg">' +
+		var html = '<img src="assets/images/hmprogresswin.jpg">' +
 		'<h2><font color="red">' + choiceString + "</font> </h2>" + 
 		"<h3>You have won the game!</h3>" +
 		"<p>You have won " + gamesWon + " games so far</p>" + 
